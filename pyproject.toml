@@ -1,0 +1,33 @@
+[project]
+name = "prj-mvp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "blinker>=1.9.0",
+    "bpu-infer-lib-x5>=1.0.2",
+    "loguru>=0.7.3",
+    "openai>=1.97.1",
+    "opencv-python>=4.10",
+    "pydub>=0.25.1",
+    "resampy>=0.4.3",
+    "setuptools>=80.9.0",
+    "sounddevice>=0.5.2",
+    "vosk>=0.3.45",
+    "webrtcvad>=2.0.10",
+    "webrtcvad-wheels>=2.0.14",
+]
+
+[tool.uv.sources]
+bpu-infer-lib-x5 = { index = "d-robotics" }
+
+[[tool.uv.index]]
+name = "d-robotics"
+url = "http://sdk.d-robotics.cc:8080/simple"
+explicit = true
+
+[tool.uv]
+required-environments = [
+    "platform_machine == 'x86_64' or platform_machine == 'aarch64'",
+]

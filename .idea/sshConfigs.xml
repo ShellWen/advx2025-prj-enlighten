@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="192.168.127.10" id="fa43fa6c-da5d-4ea8-8632-effc336e0736" port="22" nameFormat="DESCRIPTIVE" username="root" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="192.168.127.10" id="a4cafd0e-e5ac-4f71-969e-f1dc9ce62771" port="22" customName="sunrise@192.168.127.10:22" nameFormat="CUSTOM" username="sunrise" useOpenSSHConfig="true">
+        <option name="customName" value="sunrise@192.168.127.10:22" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

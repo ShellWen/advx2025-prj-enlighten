@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6b7d0fd5-66b1-45e5-ada5-692d18566e98" name="RKS_X5">
+        <fileTransfer rootFolder="/home/sunrise" accessType="SFTP" host="192.168.127.10" port="22" sshConfigId="a4cafd0e-e5ac-4f71-969e-f1dc9ce62771" sshConfig="sunrise@192.168.127.10:22">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" isUseRsync="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
